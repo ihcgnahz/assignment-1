@@ -76,6 +76,8 @@ repository.
 
 The invitation link for this week is:
 
+https://classroom.github.com/a/NzLRqDDV
+
 If you do not have a GitHub account yet, you should be prompted to make an account. After clicking on this link, GitHub will create a new private repo with permissions such that only you and the instructors can view the commits.
 
 Your assignment should be added to this GitHub repository before the deadline. You can add files to the repository through the web (github.com) interface or using the command line locally on your machine.
