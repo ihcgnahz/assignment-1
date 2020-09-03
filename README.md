@@ -19,37 +19,48 @@ return to your Binder session.**
 
 This week's assignment will be broken into two parts:
 
-## Part 1: Installing Python locally
+## Part 1: Installing Python locally and launching a Jupyter notebook
 
-Follow the [instructions](https://musa-550-fall-2020.github.io/resources/setup/)
-in the course materials repository for downloading and installing Python
-locally and creating a conda environment for this course.
+Follow the [Zero to Python guide](https://musa-550-fall-2020.github.io/guides/zero-to-python) on the course website for instructions on how to setup Python
+locally and launch the Jupyter notebook.
 
-The course materials also
-[notes](https://musa-550-fall-2020.github.io/guides/conda) on getting started
-with conda as well as
-[help](https://musa-550-fall-2020.github.io/guides/conda-issues) with some of
-the most common conda issues. The [official Conda User
-Guide](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/getting-started.html) is recommended reading.
+Please see the [list of recommended readings](https://github.com/MUSA-550-Fall-2020/week-1#recommended-readings) for tutorials and background reading to get
+familiar with Python, conda, and the Jupyter notebook.
+
+**Problems?** Post your question to [Piazza](https://piazza.com/class/ke999wuhrls2t8)!
 
 ## Part 2: Finding the Philadelphia ZIP Code with the maximum ZHVI over time
 
-Assuming you've successfully installed Python locally, now you can launch a
-Jupyter notebook with the `musa-550-fall-2020` environment. Notes on this
-process can be found
-[here](https://musa-550-fall-2020.github.io/guides/jupyter).
-For additional help running the notebook, see the tutorial from the [Jupyter
-documentation](https://jupyter.readthedocs.io/en/latest/running.html#running).
+If you've successfully followed the guide in the previous step, you should have
+installed Python and launched Jupyter by running `jupyter notebook`. This should
+have launched the [Jupyter
+dashboard](https://jupyter-notebook.readthedocs.io/en/stable/ui_components.html#notebook-dashboard).
+Now you can create a new notebook
+([instructions](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#creating-a-new-notebook-document))
+and get started on the homework!
 
-This will create the local Jupyter server. If it does not open in a browser, copy the link that is output by the command into your favorite browser. Once the server is running, you can create a new notebook and get started!
-
-The notebook will execute code from the current working directory (the directory that the notebook was launched from). If using relative file paths to load the data, the path should be relative to this working directory. From within the Jupyter notebook, you can find out the current working directory by running the following command in a cell:
+The notebook will execute code from the current working directory (the folder
+that the notebook was launched from). This folder is usually your home folder on
+your laptop. If you are using relative file paths to load the data, the path
+should be relative to this working directory. From within the Jupyter notebook,
+you can find out the current working directory by running the following command
+in a cell:
 
 ```python
 pwd
 ```
 
-Use a Jupyter notebook to find the Philadelphia ZIP code with the largest average annual ZHVI value, for each year in the data set. The Zillow data is available for download in this repository: [data/Zip_Zhvi_AllHomes.csv](data/Zip_Zhvi_AllHomes.csv).
+If you've downloaded the [assignment-1](https://github.com/MUSA-550-Fall-2020/assignment-1) repository to your computer, it usually makes sense to launch the
+Jupyter notebook from this folder instead of the default folder. You can
+change the start-up folder by first navigating to your assignment folder in
+the command line: see instructions [here].
+
+### Assignment Steps
+
+Use a Jupyter notebook to find the Philadelphia ZIP code with the largest
+average annual ZHVI value, for each year in the data set. The Zillow data is
+available for download in this repository:
+[data/Zip_Zhvi_AllHomes.csv](data/Zip_Zhvi_AllHomes.csv).
 
 The Jupyter notebook should use _pandas_ to load the data and analyze it. The following steps should be followed:
 
