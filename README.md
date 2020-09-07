@@ -53,7 +53,7 @@ pwd
 If you've downloaded the [assignment-1](https://github.com/MUSA-550-Fall-2020/assignment-1) repository to your computer, it usually makes sense to launch the
 Jupyter notebook from this folder instead of the default folder. You can
 change the start-up folder by first navigating to your assignment folder in
-the command line: see instructions [here].
+the command line: see instructions [here](https://musa-550-fall-2020.github.io/guides/jupyter#changing-the-jupyter-notebook-start-up-folder).
 
 ### Assignment Steps
 
